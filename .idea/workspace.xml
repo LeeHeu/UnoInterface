@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd4311e7-61d1-437e-84b7-721b08bf032e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/UnoMail.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppUno.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mail.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test.py" afterDir="false" />
-    </list>
+    <list default="true" id="cd4311e7-61d1-437e-84b7-721b08bf032e" name="Changes" comment="UnoMail" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,8 +143,17 @@
       <workItem from="1713879873026" duration="5219000" />
       <workItem from="1713937917731" duration="6608000" />
       <workItem from="1713976792179" duration="3320000" />
-      <workItem from="1714019531330" duration="14552000" />
+      <workItem from="1714019531330" duration="14861000" />
     </task>
+    <task id="LOCAL-00001" summary="UnoMail">
+      <option name="closed" value="true" />
+      <created>1714041206924</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714041206924</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +169,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="UnoMail" />
+    <option name="LAST_COMMIT_MESSAGE" value="UnoMail" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/UnoMail$AppUno.coverage" NAME="AppUno Coverage Results" MODIFIED="1713946380774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
