@@ -20,15 +20,67 @@ def signin():
 
 ##    print(r.keys())
 ##    print(r.values())
-
 ##login user succesfully
     if username in r.keys() and password==r[username]:
-        screen=Toplevel(root)
-        screen.title("App")
-        screen.geometry('925x500+300+200')
-        screen.config(bg="white")
-        Label(screen, text='Hello World!', bg='#fff', font=('Calibri(body)', 50, 'bold')).pack(expand=True)
-        screen.mainloop()
+        inter=Toplevel(root)
+        inter.title('Mail')
+        inter.geometry('925x500+300+200')
+        inter.configure(bg="#fff")
+        inter.resizable(False, False)
+
+        pic = PhotoImage(file='bgimg.png')
+        Label(inter, image=pic, border=0, bg='white').place(x=0, y=0)
+
+        frame = Frame(inter, width=700, height=350, bg='white')
+        frame.place(x=105, y=80)
+
+        heading = Label(frame, text='Send Your Mail', fg='#57a1f8', bg='white',
+                        font=('Microsoft Yahei UI Light', 23, 'bold'))
+        heading.place(x=230, y=0)
+
+        # Email address input
+        email = Entry(frame, width=30, fg='black', border=0, bg='white', font=('Microsoft Yahei UI Light', 11))
+        email.place(x=50, y=50)
+        email.insert(0, 'Enter Mail Address')
+        Frame(frame, width=250, height=2, bg='black').place(x=50, y=70)
+
+        # Subject input
+        subject = Entry(frame, width=60, fg='black', border=0, bg='white', font=('Microsoft Yahei UI Light', 11))
+        subject.place(x=50, y=80)
+        subject.insert(0, 'Enter Subject')
+        Frame(frame, width=475, height=2, bg='black').place(x=50, y=100)
+
+        # Body input
+        body = Text(frame, width=60, height=10, fg='black', border=1, bg='white', font=('Microsoft Yahei UI Light', 11))
+        body.place(x=50, y=110)
+        body.insert('1.0', 'Enter Body')
+
+        def send_mail():
+            # You can put your mail sending logic here
+            messagebox.showinfo("Send Mail", "Sent")
+
+        def sent_mail():
+            messagebox.showinfo("Sent Mail", "View")
+
+        def received_mail():
+            messagebox.showinfo("Received Mail", "Received")
+
+        # Send button
+        send_button = Button(frame, text="Send Mail", command=send_mail, fg='white', bg='#57a1f8',
+                             font=('Microsoft Yahei UI Light', 11))
+        send_button.place(x=600, y=300)
+
+        sent_button = Button(frame, text="Sent Mail", command=sent_mail, fg='white', bg='#57a1f8',
+                             font=('Microsoft Yahei UI Light', 11))
+        sent_button.place(x=600, y=30)
+
+        sent_button = Button(frame, text="Received Mail", command=received_mail, fg='white', bg='#57a1f8',
+                             font=('Microsoft Yahei UI Light', 11))
+        sent_button.place(x=570, y=70)
+
+        inter.mainloop()
+
+
 ##login failed
     else:
         messagebox.showerror('Invalid', 'invalid username or password')
@@ -70,7 +122,7 @@ def signup_command():
                 file.close()
 
         else:
-            messagebox.showerror('Invalid', "Both Password should match")
+            messagebox.showerror('Invalid', "Both password should match")
 
 
     def sign():
@@ -193,9 +245,7 @@ label = Label(frame, text="Don't have account?", fg='black', bg='white', font=('
 label.place(x=115, y=270)
 
 
-
-
-#signin
+#signup
 sign_up = Button(frame, width=6, text='Sign up', border=0, bg='white', cursor='hand2', fg='#57a1f8', command=signup_command)
 sign_up.place(x=235, y=270)
 

@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cd4311e7-61d1-437e-84b7-721b08bf032e" name="Changes" comment="UnoMail">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppUno.py" beforeDir="false" afterPath="$PROJECT_DIR$/Signup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mail.py" beforeDir="false" afterPath="$PROJECT_DIR$/Signin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Signin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Signin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.png" beforeDir="false" afterPath="$PROJECT_DIR$/login.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,18 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "LeeHeu"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;LeeHeu&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/LeeHeu/UnoInterface",
-    "accountId": "9efee143-1241-4658-8639-c79e1fdd5691"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LeeHeu/UnoInterface&quot;,
+    &quot;accountId&quot;: &quot;9efee143-1241-4658-8639-c79e1fdd5691&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -45,26 +45,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.AppUno.executor": "Run",
-    "Python.Mail.executor": "Run",
-    "Python.Signin (1).executor": "Run",
-    "Python.Signin.executor": "Run",
-    "Python.Signup (1).executor": "Run",
-    "Python.Signup.executor": "Run",
-    "Python.Test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.AppUno.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Mail.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Signin (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Signin.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Signup (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Signup.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/LE HIEU/Downloads/Client-master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.Signin (1)">
     <configuration name="Signin (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UnoMail" />
@@ -212,7 +213,9 @@
       <workItem from="1713937917731" duration="6608000" />
       <workItem from="1713976792179" duration="3320000" />
       <workItem from="1714019531330" duration="14861000" />
-      <workItem from="1714046953850" duration="11598000" />
+      <workItem from="1714046953850" duration="14824000" />
+      <workItem from="1714111107907" duration="906000" />
+      <workItem from="1714148376371" duration="261000" />
     </task>
     <task id="LOCAL-00001" summary="UnoMail">
       <option name="closed" value="true" />
@@ -230,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714047109445</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="UnoMail">
+      <option name="closed" value="true" />
+      <created>1714064458446</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714064458446</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +268,7 @@
     <SUITE FILE_PATH="coverage/UnoMail$AppUno.coverage" NAME="AppUno Coverage Results" MODIFIED="1713946380774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/UnoMail$Mail.coverage" NAME="Mail Coverage Results" MODIFIED="1714040566965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/UnoMail$Signup.coverage" NAME="Signup Coverage Results" MODIFIED="1714057610623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/UnoMail$Signin__1_.coverage" NAME="Signin (1) Coverage Results" MODIFIED="1714063404251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UnoMail$Signin__1_.coverage" NAME="Signin (1) Coverage Results" MODIFIED="1714111192223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/UnoMail$Test.coverage" NAME="Test Coverage Results" MODIFIED="1713940592749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
