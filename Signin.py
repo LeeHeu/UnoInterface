@@ -20,9 +20,10 @@ def signin():
 
 ##    print(r.keys())
 ##    print(r.values())
-##login user succesfully
+##login user succesfully######################################################
     if username in r.keys() and password==r[username]:
-        inter=Toplevel(root)
+        root.destroy()
+        inter = Tk()
         inter.title('Mail')
         inter.geometry('925x500+300+200')
         inter.configure(bg="#fff")
@@ -38,22 +39,49 @@ def signin():
                         font=('Microsoft Yahei UI Light', 23, 'bold'))
         heading.place(x=230, y=0)
 
+
+        def on_enter(e):
+            email.delete(0, 'end')
+        def on_leave(e):
+            name=email.get()
+            if name=='':
+                email.insert(0, 'Enter Mail Address')
         # Email address input
         email = Entry(frame, width=30, fg='black', border=0, bg='white', font=('Microsoft Yahei UI Light', 11))
         email.place(x=50, y=50)
         email.insert(0, 'Enter Mail Address')
+        email.bind('<FocusIn>', on_enter)
+        email.bind('<FocusOut>', on_leave)
         Frame(frame, width=250, height=2, bg='black').place(x=50, y=70)
-
+        #########################################
         # Subject input
+        def on_enter(e):
+            subject.delete(0, 'end')
+        def on_leave(e):
+            name=subject.get()
+            if name=='':
+                subject.insert(0, 'Enter Subject')
         subject = Entry(frame, width=60, fg='black', border=0, bg='white', font=('Microsoft Yahei UI Light', 11))
         subject.place(x=50, y=80)
         subject.insert(0, 'Enter Subject')
+        subject.bind('<FocusIn>', on_enter)
+        subject.bind('<FocusOut>', on_leave)
         Frame(frame, width=475, height=2, bg='black').place(x=50, y=100)
-
+        ###########################################
         # Body input
+        def on_enter(e):
+            if body.get("1.0", "end-1c").strip() == 'Enter Body':  # Gets all text and removes the last newline
+                body.delete("1.0", "end")  # Clear all text from the widget
+
+        def on_leave(e):
+            if not body.get("1.0", "end-1c").strip():  # Check if the text is empty (ignoring trailing newline)
+                body.insert("1.0", 'Enter Body')  # Insert default text if empty
+
         body = Text(frame, width=60, height=10, fg='black', border=1, bg='white', font=('Microsoft Yahei UI Light', 11))
         body.place(x=50, y=110)
         body.insert('1.0', 'Enter Body')
+        body.bind('<FocusIn>', on_enter)
+        body.bind('<FocusOut>', on_leave)
 
         def send_mail():
             # You can put your mail sending logic here
@@ -79,7 +107,7 @@ def signin():
         sent_button.place(x=570, y=70)
 
         inter.mainloop()
-
+############################################################################
 
 ##login failed
     else:
